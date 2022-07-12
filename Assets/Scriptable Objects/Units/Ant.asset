@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63df9f5af7c8ca9488feca164541a868, type: 3}
+  m_Name: Ant
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 0}
+  type: 1
+  rarityColor: 1
+  description: A basic ant that tries to eat you while you're just a simple brain!
+  health: 1
+  speed: 1
+  damage: 1
+  weapons: []
+  moneyDrop: []
+  experienceDrop:
+  - {fileID: 11400000, guid: f32f2af2c19518549a323d5921f6a31e, type: 2}
