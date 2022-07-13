@@ -8,8 +8,8 @@ public enum UnitType
 }
 public class UnitObject : ScriptableObject
 {
-    [SerializeField]
-    protected GameObject prefab;
+    
+    // public GameObject prefab;
     
     [SerializeField]
     protected UnitType type;

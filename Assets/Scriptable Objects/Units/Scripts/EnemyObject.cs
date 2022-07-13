@@ -5,6 +5,7 @@ public class EnemyObject : UnitObject
 {
     [SerializeField] protected MoneyObject[] moneyDrop;
     [SerializeField] protected ExperienceObject[] experienceDrop;
+    public Enemy prefab;
     private void Awake()
     {
         type = UnitType.Enemy;
