@@ -38,19 +38,13 @@ public class EnemySpawner : MonoBehaviour
 
     void Start()
     {
-        for (var i = 0; i < 350; i++)
+        for (var i = 0; i < 25; i++)
         {
             var size = 15;
             var shape = pool.Get();
             var offset = new Vector3(Random.Range(-size, size), Random.Range(-size, size), 0);
             shape.transform.position = offset;    
         }
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
         
     }
 }
